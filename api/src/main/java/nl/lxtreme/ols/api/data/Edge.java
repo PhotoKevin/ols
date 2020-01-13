@@ -28,9 +28,9 @@ public enum Edge
 {
   /** No edge. */
   NONE, //
-  /** A rising edge (low -> high transition). */
+  /** A rising edge (low -&gt; high transition). */
   RISING, //
-  /** A falling edge (high -> low transition). */
+  /** A falling edge (high -&gt; low transition). */
   FALLING;
 
   /**

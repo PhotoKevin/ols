@@ -97,11 +97,11 @@ public final class Unit
     }
 
     /**
-     * Converts a given period to a {@link FrequencyUnit} instance.
+     * Converts a given period to a {@link Frequency} instance.
      * 
      * @param aFrequency
-     *          the frequency to convert to a {@link FrequencyUnit}.
-     * @return a {@link FrequencyUnit} instance, never <code>null</code>.
+     *          the frequency to convert to a {@link Frequency}.
+     * @return a {@link Frequency} instance, never <code>null</code>.
      */
     public static Frequency toUnit( final double aFrequency )
     {
@@ -156,7 +156,7 @@ public final class Unit
     /**
      * Returns the scale factor to get from Hertz to this frequency unit.
      * 
-     * @return a scale factor, >= 1.0.
+     * @return a scale factor, &gt;= 1.0.
      */
     public double getFactor()
     {
@@ -409,9 +409,6 @@ public final class Unit
      * 
      * @param aTime
      *          the time (in seconds) to convert to a string representation;
-     * @param aScale
-     *          the scale (= number of digits after decimal separator) to use in
-     *          the string representation.
      * @return a string representation of the given time, like "1.453ms", never
      *         <code>null</code>.
      */

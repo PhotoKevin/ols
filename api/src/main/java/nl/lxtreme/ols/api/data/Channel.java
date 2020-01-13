@@ -57,7 +57,7 @@ public interface Channel extends Comparable<Channel>
   /**
    * Returns the index of this channel.
    * 
-   * @return a channel index, >= 0 && < {@value #MAX_CHANNELS}.
+   * @return a channel index, &gt;= 0 &amp;&amp; &lt; {@value nl.lxtreme.ols.api.Ols#MAX_CHANNELS}.
    */
   int getIndex();
 
@@ -72,7 +72,7 @@ public interface Channel extends Comparable<Channel>
   /**
    * Returns the bit-mask to use for this channel.
    * 
-   * @return a bit-mask (= always a power of two), >= 1.
+   * @return a bit-mask (= always a power of two), &gt;= 1.
    */
   int getMask();
 

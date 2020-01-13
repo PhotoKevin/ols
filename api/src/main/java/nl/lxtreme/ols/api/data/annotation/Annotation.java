@@ -43,7 +43,7 @@ public interface Annotation<ANNOTATION_TYPE> extends Comparable<Annotation<ANNOT
   /**
    * Returns the channel index of the channel to annotate.
    * 
-   * @return a channel index, >= 0 && < 32.
+   * @return a channel index, &gt;= 0 &amp;&amp; &lt; 32.
    */
   int getChannel();
 

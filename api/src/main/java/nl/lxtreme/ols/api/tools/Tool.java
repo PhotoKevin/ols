@@ -85,9 +85,6 @@ public interface Tool<RESULT_TYPE>
    * @param aContext
    *          the context in which the tool should be run, cannot be
    *          <code>null</code>;
-   * @return <code>true</code> if the setup is successfully completed (the user
-   *         acknowledged the setup), <code>false</code> if the setup is aborted
-   *         by the user.
    */
   void invoke( final Window aParent, final ToolContext aContext );
 

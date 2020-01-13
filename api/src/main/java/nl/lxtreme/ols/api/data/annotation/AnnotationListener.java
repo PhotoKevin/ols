@@ -44,7 +44,7 @@ public interface AnnotationListener
    * </p>
    * 
    * @param aChannelIdx
-   *          the channel index to clear the annotation for, >= 0 && < 32.
+   *          the channel index to clear the annotation for, &gt;= 0 &amp;&amp; &lt; 32.
    */
   void clearAnnotations( int aChannelIdx );
 

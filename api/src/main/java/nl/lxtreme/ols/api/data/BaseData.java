@@ -117,7 +117,7 @@ public abstract class BaseData<TYPE extends Comparable<? super TYPE>> implements
   /**
    * Returns the channel index this data belongs to.
    * 
-   * @return a channel index, >= 0 && < 32.
+   * @return a channel index, &gt;= 0 &amp;&amp; &lt; 32.
    */
   public final int getChannelIdx()
   {
@@ -127,7 +127,7 @@ public abstract class BaseData<TYPE extends Comparable<? super TYPE>> implements
   /**
    * Returns the start sample (array) index on which this data/event ended.
    * 
-   * @return an array index, >= 0.
+   * @return an array index, &gt;= 0.
    * @see #getStartSampleIndex()
    */
   public final int getEndSampleIndex()
@@ -159,7 +159,7 @@ public abstract class BaseData<TYPE extends Comparable<? super TYPE>> implements
   /**
    * Returns the start sample (array) index on which this data/event started.
    * 
-   * @return an array index, >= 0.
+   * @return an array index, &gt;= 0.
    * @see #getEndSampleIndex()
    */
   public final int getStartSampleIndex()

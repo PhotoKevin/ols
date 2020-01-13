@@ -151,8 +151,8 @@ public final class ChannelAnnotation implements Comparable<ChannelAnnotation>
    * Returns whether this annotation starts before the given index and ends
    * after the given index.
    * 
-   * @param aIndex
-   *          the index.
+   * @param aTimestamp
+   *          the timestamp.
    * @return <code>true</code> if this annotation is valid at the given index
    *         (see above), <code>false</code> otherwise.
    */

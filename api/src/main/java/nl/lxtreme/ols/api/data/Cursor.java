@@ -54,7 +54,7 @@ public interface Cursor extends Cloneable
   /**
    * Returns the index of this cursor.
    * 
-   * @return an index, >= 0 && < 10.
+   * @return an index, &gt;= 0 &amp;&amp; &lt; 10.
    */
   int getIndex();
 
@@ -91,7 +91,7 @@ public interface Cursor extends Cloneable
    *          the time stamp to check against;
    * @param aDelta
    *          the delta deviation between this time stamp and the given time
-   *          stamp, >= 0.
+   *          stamp, &gt;= 0.
    * @return <code>true</code> if this cursor is within the area of the given
    *         time stamp, <code>false</code> otherwise.
    */
@@ -125,7 +125,7 @@ public interface Cursor extends Cloneable
    * Sets the time stamp for this cursor.
    * 
    * @param aTimestamp
-   *          the time stamp to set, >= 0.
+   *          the time stamp to set, &gt;= 0.
    */
   void setTimestamp( final long aTimestamp );
 

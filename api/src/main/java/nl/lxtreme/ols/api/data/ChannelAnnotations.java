@@ -42,7 +42,7 @@ public class ChannelAnnotations
    * Creates a new ChannelAnnotations instance.
    * 
    * @param aChannel
-   *          the index of the sample channel, >= 0 && <
+   *          the index of the sample channel, &gt;=0 &amp;&amp; &lt;
    *          {@value nl.lxtreme.ols.api.Ols#MAX_CHANNELS}.
    */
   public ChannelAnnotations( final int aChannel )
@@ -56,10 +56,10 @@ public class ChannelAnnotations
   /**
    * Adds a new annotation to this container.
    * 
-   * @param aStartIdx
-   *          the start sample index of the annotation to add;
-   * @param aEndIdx
-   *          the end sample index of the annotation to add;
+   * @param aStartTimestamp
+   *          the start sample timestamp of the annotation to add;
+   * @param aEndTimestamp
+   *          the end sample timestamp of the annotation to add;
    * @param aData
    *          the actual annotation data of the annotation to add.
    */
@@ -96,7 +96,7 @@ public class ChannelAnnotations
    * Returns the annotation at the given time index.
    * 
    * @param aTimeIndex
-   *          the index of the timestamps to return the annotation for, >= 0.
+   *          the index of the timestamps to return the annotation for, &gt;= 0.
    * @return a channel annotation valid at the given time index, or
    *         <code>null</code> if no such annotation was present.
    */
@@ -125,9 +125,9 @@ public class ChannelAnnotations
    * and end index.
    * 
    * @param aStartIdx
-   *          the start index of the "visible" range, >= 0;
+   *          the start index of the "visible" range, &gt;= 0;
    * @param aEndIdx
-   *          the end index of the "visible" range, >= 0.
+   *          the end index of the "visible" range, &gt;= 0.
    * @return an iterator of all "visible" channel annotations, never
    *         <code>null</code>.
    */

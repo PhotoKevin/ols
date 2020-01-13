@@ -43,7 +43,7 @@ public interface DataSet
    * Returns a single channel.
    * 
    * @param aIndex
-   *          the channel index, >= 0 && <
+   *          the channel index, &gt;= 0 &amp;&amp; &lt;
    *          {@link AcquisitionResult#getChannels()}.
    * @return an array of channels, never <code>null</code>.
    */
@@ -60,7 +60,7 @@ public interface DataSet
    * Returns a single cursor
    * 
    * @param aIndex
-   *          the index of the cursor to retrieve, >= 0.
+   *          the index of the cursor to retrieve, &gt;= 0.
    */
   public Cursor getCursor( int aIndex );
 

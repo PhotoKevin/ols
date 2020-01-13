@@ -33,14 +33,14 @@ public interface AcquisitionResult
    * largest available timestamp plus some padding to make the last sample
    * visible.
    * 
-   * @return the absolute length, >= 0.
+   * @return the absolute length, &gt;= 0.
    */
   public abstract long getAbsoluteLength();
 
   /**
    * Returns the number of channels in the sample data.
    * 
-   * @return the channel count, >= 0.
+   * @return the channel count, &gt;= 0.
    */
   public abstract int getChannels();
 

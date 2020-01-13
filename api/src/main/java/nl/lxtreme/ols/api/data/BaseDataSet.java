@@ -88,7 +88,7 @@ public class BaseDataSet<DATA extends BaseData<DATA>>
   /**
    * Returns the sample (array) index on which the decoding is stopped.
    * 
-   * @return a sample (array) index, >= 0.
+   * @return a sample (array) index, &gt;= 0.
    */
   public final int getEndOfDecode()
   {
@@ -106,7 +106,7 @@ public class BaseDataSet<DATA extends BaseData<DATA>>
   /**
    * Returns the sample (array) index on which the decoding is started.
    * 
-   * @return a sample (array) index, >= 0.
+   * @return a sample (array) index, &gt;= 0.
    */
   public final int getStartOfDecode()
   {
@@ -161,7 +161,7 @@ public class BaseDataSet<DATA extends BaseData<DATA>>
   /**
    * Returns the current size of this data set.
    * 
-   * @return a data set size, >= 0.
+   * @return a data set size, &gt;= 0.
    */
   protected final int size()
   {

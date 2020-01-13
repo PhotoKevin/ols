@@ -34,12 +34,12 @@ public interface AcquisitionProgressListener
    * <p>
    * There is no guarantee made by the framework that this method will be
    * called. If called, it will always be called at least after the
-   * {@link #acquisitionStarted(int, int, int)} and before
-   * {@link #acquisitionEnded(AcquisitionResultStatus)}.
+   * @link #acquisitionStarted() and before
+   * @link #acquisitionEnded(AcquisitionResultStatus).
    * </p>
    * 
    * @param aPercentage
-   *          a percentage, >= 0 && <= 100.
+   *          a percentage, &gt;= 0 &amp;&amp; &lt;= 100.
    */
   void acquisitionInProgress( int aPercentage );
 }

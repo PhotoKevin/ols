@@ -92,7 +92,7 @@ public interface DeviceMetadata extends Iterable<Object>
   /**
    * Returns the maximum number of probes supported by the device.
    * 
-   * @return a probe count, >= 0 && < 256, can be <code>null</code> in case no
+   * @return a probe count, &gt;= 0 &amp;&amp; &lt; 256, can be <code>null</code> in case no
    *         probe count is available/known.
    */
   Integer getProbeCount();

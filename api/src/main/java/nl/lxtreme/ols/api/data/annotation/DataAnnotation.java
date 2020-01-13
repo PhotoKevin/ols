@@ -32,14 +32,14 @@ public interface DataAnnotation<ANNOTATION_TYPE> extends Annotation<ANNOTATION_T
   /**
    * Returns the ending timecstamp of this annotation.
    * 
-   * @return a time stamp, >= 0.
+   * @return a time stamp, &gt;= 0.
    */
   public long getEndTimestamp();
 
   /**
    * Returns the starting time stamp of this annotation.
    * 
-   * @return a time stamp, >= 0.
+   * @return a time stamp, &gt;= 0.
    */
   public long getStartTimestamp();
 

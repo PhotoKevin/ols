@@ -39,7 +39,7 @@ public interface ToolContext
   /**
    * Returns the number of channels in the sample data.
    * 
-   * @return the channel count, >= 0.
+   * @return the channel count, &gt;= 0.
    */
   int getChannels();
 
@@ -67,21 +67,21 @@ public interface ToolContext
   /**
    * Returns the ending sample index on which the decoding should end.
    * 
-   * @return a end sample index, >= 0.
+   * @return a end sample index, &gt;= 0.
    */
   int getEndSampleIndex();
 
   /**
    * Returns the length of the decoding area.
    * 
-   * @return a decoding length, >= 0.
+   * @return a decoding length, &gt;= 0.
    */
   int getLength();
 
   /**
    * Returns the starting sample index on which the decoding should start.
    * 
-   * @return a start sample index, >= 0.
+   * @return a start sample index, &gt;= 0.
    */
   int getStartSampleIndex();
 }

@@ -44,23 +44,15 @@
 						<Import-Package>javax.swing,
 							org.osgi.service.prefs;version="1.1",
 							nl.lxtreme.ols.util</Import-Package>
-						<Export-Package>nl.lxtreme.ols.api,
-							nl.lxtreme.ols.api.acquisition,
-							nl.lxtreme.ols.api.data,
-                            nl.lxtreme.ols.api.data.annotation,
-							nl.lxtreme.ols.api.data.export,
-							nl.lxtreme.ols.api.data.project,
-							nl.lxtreme.ols.api.devices,
-                            nl.lxtreme.ols.api.task,
-							nl.lxtreme.ols.api.tools,
-							nl.lxtreme.ols.api.ui,
-							nl.lxtreme.ols.api.util</Export-Package>
 					</instructions>
 				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
+				<configuration>
+				<source>8</source>
+				</configuration>
 				<executions>
 					<execution>
 						<goals>
