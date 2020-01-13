@@ -180,7 +180,7 @@ public final class Frequency<TYPE extends Comparable<TYPE>>
   /**
    * Returns the number of entries in this frequency distribution map.
    * 
-   * @return a size, >= 0.
+   * @return a size, &gt;= 0.
    */
   public long getTotalCount()
   {
@@ -200,7 +200,7 @@ public final class Frequency<TYPE extends Comparable<TYPE>>
   /**
    * Returns the number of unique values in this frequency distribution map.
    * 
-   * @return a unique value count, >= 0.
+   * @return a unique value count, &gt;= 0.
    */
   public int getUniqueValueCount()
   {

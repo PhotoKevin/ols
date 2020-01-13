@@ -512,12 +512,8 @@ public final class SwingComponentUtils
    * or none of <code>parent</code>'s visible descendents contain the specified
    * location, <code>parent</code> is returned.
    * 
-   * @param aParent
-   *          the root component to begin the search
-   * @param aXpos
-   *          the x target location
-   * @param aYpos
-   *          the y target location
+   * @param aEvent
+   *          the event
    */
   public static JComponent getDeepestComponentAt( final MouseEvent aEvent )
   {
@@ -527,7 +523,7 @@ public final class SwingComponentUtils
   /**
    * Returns the key mask of the menu shortcut key.
    * 
-   * @return a key mask, >= 0.
+   * @return a key mask, &gt;= 0.
    */
   public static final int getMenuShortcutKeyMask()
   {
@@ -588,7 +584,7 @@ public final class SwingComponentUtils
    *          the font to create the string width;
    * @param aString
    *          the string to get the width for.
-   * @return a string width, >= 0.
+   * @return a string width, &gt;= 0.
    */
   public static int getStringWidth( final Font aFont, final String aString )
   {
@@ -601,7 +597,7 @@ public final class SwingComponentUtils
    * 
    * @param aString
    *          the string to get the width for.
-   * @return a string width, >= 0.
+   * @return a string width, &gt;= 0.
    */
   public static int getStringWidth( final String aString )
   {
@@ -688,7 +684,7 @@ public final class SwingComponentUtils
    * 
    * @param aComponent
    *          the component to register the keystroke for;
-   * @param aKeyStroke
+   * @param aKey
    *          the keystroke (as plain char) to register;
    * @param aAction
    *          the action to invoke when the keystroke is typed.

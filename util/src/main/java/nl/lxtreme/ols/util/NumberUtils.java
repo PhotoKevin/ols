@@ -206,10 +206,10 @@ public final class NumberUtils
 
   /**
    * Returns the maximum value for the given bit count, e.g.,
-   * <tt>( 1 << aBitCount ) - 1</tt>.
+   * <tt>( 1 &lt;&lt; aBitCount ) - 1</tt>.
    * 
    * @param aBitCount
-   *          the number of bits to create a bit mask for, > 0.
+   *          the number of bits to create a bit mask for, &gt; 0.
    * @return the bit mask.
    */
   public static int getBitMask( final int aBitCount )

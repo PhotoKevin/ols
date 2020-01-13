@@ -31,8 +31,7 @@ import javax.swing.event.*;
  * Provides a "pop down" button, which shows a popdown menu if clicked.
  * <p>
  * Based on code found on:
- * <http://explodingpixels.wordpress.com/2008/11/10/prevent
- * -popup-menu-dismissal/>
+ * &lt;http://explodingpixels.wordpress.com/2008/11/10/prevent-popup-menu-dismissal/&gt;
  * </p>
  */
 public class JPopdownButton extends JToggleButton

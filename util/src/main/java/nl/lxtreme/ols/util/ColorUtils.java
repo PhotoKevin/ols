@@ -78,7 +78,7 @@ public final class ColorUtils
    *          the color to create a highlight color for, cannot be
    *          <code>null</code>;
    * @param aFactor
-   *          the highlight factor to apply, &gt;= 0.0 && &lt;= 1.0f;
+   *          the highlight factor to apply, &gt;= 0.0 &amp;&amp; &lt;= 1.0f;
    * @return a highlighting color, never <code>null</code>.
    */
   public static Color getHighlightColor( final Color aColor, final float aFactor )

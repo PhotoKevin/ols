@@ -34,7 +34,7 @@ import nl.lxtreme.ols.util.*;
  * on the EDT.
  * <p>
  * Code originates from the SwingHelper project, for more information see:
- * {@link "https://swinghelper.dev.java.net/"}.
+ * link "https://swinghelper.dev.java.net/".
  * </p>
  */
 public final class ThreadViolationDetectionRepaintManager extends RepaintManager

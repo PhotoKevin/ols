@@ -25,7 +25,7 @@ import nl.lxtreme.ols.util.*;
 
 
 /**
- * Service facade for {@link ApplicationCallback}.
+ * Service facade for {@link PlatformCallback}.
  */
 public class PlatformCallbackHelper
 {

@@ -42,7 +42,7 @@ import javax.swing.*;
  * Provides a stack layout, which provides a simple alternative to
  * {@link JLayeredPane}s.
  * 
- * @author Romain Guy <romain.guy@mac.com>
+ * @author Romain Guy &lt;romain.guy@mac.com&gt;
  */
 public class StackLayout implements LayoutManager2
 {

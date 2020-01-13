@@ -60,7 +60,7 @@ public class JTextStatusBar extends JStatusBar
    * Sets the progress of the progress indicator to the given percentage.
    * 
    * @param aPercentage
-   *          the percentage to set, >= 0 && < 100.
+   *          the percentage to set, &gt;= 0 &amp;&amp; &lt; 100.
    */
   public void setProgress( final int aPercentage )
   {
